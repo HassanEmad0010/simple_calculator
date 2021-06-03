@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="sumApplication.jnlp">
+  <information>
+    <title>sumApplication</title>
+    <vendor>Hassan Emad</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="sumApplication.jar" size="2632" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="sumapplication.SumApplication"  name="sumApplication" />
+  <update check="always"/>
+</jnlp>
